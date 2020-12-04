@@ -2,12 +2,16 @@
 
 ## Build
 
+```
   mvn clean install
+```
 
 ## Run Karaf
   
+```  
   tar -xf apache-karaf-4.3.0.tar.gz 
   apache-karaf-4.3.0/bin/karaf
+```
 
 ## Deploy
 
@@ -23,4 +27,6 @@ bundle:install mvn:org.alex.soto/multipart/0.0.1-SNAPSHOT
 # Test
 In another terminal:
 
+```
    curl -v -X PUT -F 'data@=README.md' http://localhost:8181/upload
+```
