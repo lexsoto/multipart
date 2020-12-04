@@ -1,14 +1,3 @@
-/*--
- ============================================================================
- Envieta PROPRIETARY
- ============================================================================
- This file and its contents are the intellectual property of Envieta.  It may
- not be used, copied, distributed or otherwise  disclosed in whole or in part
- without the express written permission of Envieta.
- ============================================================================
- Copyright (c) 2019, Envieta. All rights reserved.
- ============================================================================
-*/
 package multipart;
 
 import java.io.IOException;
